@@ -73,6 +73,11 @@ export function HomeContent({ tradeType, setTradeType, selectedPayTypes, setSele
             <p className="text-lg sm:text-xl text-zinc-400 mt-4">
               Monitoreo en tiempo real: 1 USDT = X VES (Bolívares)
             </p>
+            <div className="mt-6 inline-block px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-lg">
+              <p className="text-sm text-zinc-400">
+                <span className="text-zinc-300 font-medium">Nota:</span> El precio se calcula en base a los tres primeros anuncios de cada tipo de operación, excluyendo los anuncios patrocinados.
+              </p>
+            </div>
           </div>
 
           {/* Chart Card */}
