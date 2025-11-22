@@ -73,10 +73,17 @@ export function HomeContent({ tradeType, setTradeType, selectedPayTypes, setSele
             <p className="text-lg sm:text-xl text-zinc-400 mt-4">
               Monitoreo en tiempo real: 1 USDT = X VES (Bolívares)
             </p>
-            <div className="mt-6 inline-block px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-lg">
-              <p className="text-sm text-zinc-400">
-                <span className="text-zinc-300 font-medium">Nota:</span> El precio se calcula en base a los tres primeros anuncios de cada tipo de operación, excluyendo los anuncios patrocinados.
-              </p>
+            <div className="mt-6 flex flex-col gap-3 items-center">
+              <div className="inline-block px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-lg">
+                <p className="text-sm text-zinc-400">
+                  <span className="text-zinc-300 font-medium">Nota:</span> El precio se calcula en base a los tres primeros anuncios de cada tipo de operación, excluyendo los anuncios patrocinados.
+                </p>
+              </div>
+              <div className="inline-block px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-lg">
+                <p className="text-sm text-zinc-400">
+                  <span className="text-zinc-300 font-medium">Fuente:</span> Estos valores son tomados de la API de Binance y son generados por la oferta y demanda de los comerciantes.
+                </p>
+              </div>
             </div>
           </div>
 
