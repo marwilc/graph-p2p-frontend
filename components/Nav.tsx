@@ -12,10 +12,10 @@ export default function Nav() {
       label: "Home",
       href: "/",
     },
-    {
-      label: "Tasks",
-      href: "/tasks",
-    },
+    // {
+    //   label: "Tasks",
+    //   href: "/tasks",
+    // },
   ];
   return (
     <nav className="flex gap-4">
